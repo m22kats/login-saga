@@ -9,8 +9,6 @@ export interface LoginResponse {
   token: string;
 }
 
-export interface LogoutRequest {}
-
 export interface Token {
   accessToken: string;
 }

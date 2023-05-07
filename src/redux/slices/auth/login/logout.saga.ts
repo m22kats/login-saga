@@ -1,6 +1,4 @@
 import { authService } from '@services/auth/auth.service';
-import { LoginResponse } from '../../../../services/auth/auth.service.type';
-import { Response } from '@src/services/type';
 import { call, put, takeLatest } from 'redux-saga/effects';
 import { loginActions } from './login.slice';
 
